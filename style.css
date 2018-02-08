@@ -11,6 +11,17 @@ body {
 
 /* --- header ---*/
 
+.naslovStr {
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    top: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 .navigation {
     background-color: #303336;
     width: 100%;
@@ -19,25 +30,25 @@ body {
     position: absolute;
     left: 0px;
     top: 0px;
-    opacity: 0.8;
-    
+    opacity: 0.8;  
 }
 
-.navContent {
-    position: relative;
-    top: 20px;
-    text-align: center;
+.navContent { 
     font-family: 'Raleway', sans-serif;
     font-size: 35px;
     color: grey;
     text-shadow: 3px 3px 3px black;
+    display: inline-block; 
+    position: relative;
+    left: 250px;
+    top: 15px;
 }
 
 .navContent a {
     padding: 50px;
     letter-spacing: 3px;
     color: grey;
-    text-decoration: none;
+    text-decoration: none; 
 }
 
 /* --- footer ---*/
