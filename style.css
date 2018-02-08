@@ -27,10 +27,10 @@ body {
     width: 100%;
     height: 80px;
     border-bottom: 3px solid grey;
-    position: absolute;
+    position: relative;
     left: 0px;
     top: 0px;
-    opacity: 0.8;  
+    opacity: 0.8;
 }
 
 .navContent { 
@@ -61,6 +61,7 @@ footer {
     bottom: 0px;
     left: 0px;
     border-top: 2.0px solid grey;
+    opacity: 0.8;
 }
 
 /* --- main --- */
